@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Header {
+    background-image: url(Images/car2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+header nav {
+    width: 100%;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+}
+header .underline {
+    text-decoration: underline;
+}
+.info{
+    margin: 50px 0;
+}
+.intro{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.info .form{
+    padding:  0 25%;
+    display: flex;
+    margin-top: 50px;
+
+    gap: 150px;
+}
+
+form input{
+width: 100%;
+    padding: 7px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    outline: none;
+    font-size:  16px;
+
+
+}
+form textarea{
+width: 100%;
+    padding: 7px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+}
+form input[type =submit]{
+    width: 100px;
+    color: white;
+    background-color: red;
+   
+
+
+}
+.Address h3{
+    color: green;
+    
+}
+.question{
+    padding: 0 25%;
+    margin: 50px 0;
+
+}
+.q{
+    margin: 50px 0;
+}
+.q .box{
+    color: grey;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  20px;
+    padding: 0 20px;
+    
+}
+.q .box p{
+    font-size: 14px;
+}
+footer {
+    text-align: center;
+    color: burlywood;
+    margin-bottom: 16px;
+    font-size: 12px;
+
+}
